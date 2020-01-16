@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageId>Himanshu.Extensions.System</PackageId>
+    <Authors>Himanshu</Authors>
+    <Description>System extenstions</Description>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/himanshu-crypto/ExtensionsPackage/wiki</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/himanshu-crypto/ExtensionsPackage/</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Humanizer" Version="2.7.9" />
+  </ItemGroup>
+
+</Project>
